@@ -17,7 +17,7 @@ public class BaseClass {
 }
 
 class DerivedClass extends BaseClass {
-    void foo() {
+   void foo() {
         System.out.println("In Derived.foo()");
     }
 

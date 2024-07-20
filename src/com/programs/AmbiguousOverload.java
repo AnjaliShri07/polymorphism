@@ -13,9 +13,10 @@ public class AmbiguousOverload {
         System.out.println("long");
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         AmbiguousOverload test = new AmbiguousOverload();
         test.print(10);
+        test.print(Integer.valueOf(10));
         test.print(1L);
         test.print(-1);
     }

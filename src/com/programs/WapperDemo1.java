@@ -1,21 +1,26 @@
 package com.programs;
 
+/*
 
-/*Class A{
+class A1{
     public void area(Integer value) {
         System.out.println("Integer " + value);
     }
 }
-Class B extends A{
+class B1 extends A1{
     public Long area(Integer value) {
         System.out.println("Long " + value);
         return value;
     }
 }
 public class WapperDemo1 {
-    A a= new B();
-    a.area(null);
-}*/
+    public static void main(String[] args) {
+        A1 a= new B1();
+        a.area(10);
+        a.area(null);
+    }
+}
+*/
 
 
 /*

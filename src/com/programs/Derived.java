@@ -18,5 +18,7 @@ public class Derived extends Test
     {
         /*Derived object = new Test();
         object.myMethod();*/
+        Test t = new Derived();
+        t.myMethod();
     }
 }

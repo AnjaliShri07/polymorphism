@@ -6,15 +6,16 @@ class Parent{
     }
 }
 class Child extends Parent{
-    void class Name(){
+    /*void className(){
         System.out.println("Child");
-    }
+    }*/
 }
 
 public class PublicToDefault{
     public static void main(String[] args){
         Parent parent = new Child();
         parent.className();
+
     }
 }
 
